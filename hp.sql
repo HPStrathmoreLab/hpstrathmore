@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 3.2.4
+-- version 3.5.2.2
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Oct 16, 2014 at 05:24 PM
--- Server version: 5.1.41
--- PHP Version: 5.3.1
+-- Host: 127.0.0.1
+-- Generation Time: Nov 04, 2014 at 09:43 AM
+-- Server version: 5.5.27
+-- PHP Version: 5.4.7
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -41,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `projects` (
 INSERT INTO `projects` (`project_id`, `img`, `title`, `desc`, `link`) VALUES
 (1, 'images/links/eid.jpg', 'The Early Infant Diagnosis (EID)', 'a web-based and sms-enabled portal for the testing and posting of HIV/AIDS test results for Kenya’s National AIDS/STI Control Program (NASCOP). This system has been implemented and deployed in Kenya, Uganda, Malawi, Zimbabwe and Nigeria, with the destination being India.\r\n\r\nThis tool can be accessed at www.nascop.org/eid. User login credentials will be needed for more detailed and specific access.\r\n', 'http://nascop.org/eid'),
 (2, 'images/links/adt.jpg', 'The Antiretroviral Dispensing Tool (ADT)', 'Further to the work done in the Early Infant Diagnosis (EID), ADT web-based systems was developed, tested and deployed to support the mothers and guardians of the infants that go through testing under the EID set up.\r\nIt is a tool that is used to manage prescriptions and manage the regimens the patients have been out on.\r\nADT is live and in use by a couple of Voluntary Testing Centres (VTCs) and health centres in the country.\r\n', '41.89.6.210/ADT'),
-(3, 'images/links/idsr.jpg', 'Integrated Disease Surveillance and Response portal (IDSR) and mSOS', 'a mobile-enabled version of the system for the Division for Disease Surveillance and Response (DDSR) Unit of the Ministry of Health (Kenya). This portal is live in two counties, i.e. Busia and Kajiado and is used by clinical officers at over 50 facilities to report incidences for notifiable diseases.\r\n\r\n', 'http://nascop.org/idsr '),
+(3, 'images/links/idsr.png', 'Integrated Disease Surveillance and Response portal (IDSR) and mSOS', 'a mobile-enabled version of the system for the Division for Disease Surveillance and Response (DDSR) Unit of the Ministry of Health (Kenya). This portal is live in two counties, i.e. Busia and Kajiado and is used by clinical officers at over 50 facilities to report incidences for notifiable diseases.\r\n\r\n', 'http://nascop.org/idsr '),
 (4, 'images/links/tb.jpg', 'The food fortification Monitoring and Evaluation tool for the Division of Nutrition and Dietetics, Ministry of Health (Kenya)', 'This web-based monitoring and evaluation tool is used as a means of monitoring food fortification efforts by the division as a means of improving the uptake of vitamins and micronutrients as a means of improving nutrition in the country. The tool is live and in use in Kenya.\r\nThis tool is not accessible publicly as it is deployed in their institutional intranet.\r\n', ''),
 (5, 'images/links/hcmp.jpg', 'The Health Commodities Management Platform (HCMP)', 'a web-based supply-chain tool for the management of drug and pharmaceutical commodities at health facilities across different counties in Kenya. The tool is live in Nairobi, Taita-Taveta, Mombasa, Kilifi, Kwale and Lamu counties, with plans to deploy it to more counties.\r\nThe tool is publicly accessible via the URL health-cmp.or.ke. User login credentials are necessary for one to manipulate any data.\r\n', 'http://health-cmp.or.ke'),
 (6, 'images/links/tb.jpg', 'The Lab Information Management System (LIMS) for the National Quality Control Lab (NQCL) and the Mission for Essential Drugs and Supplies (MEDS).', 'This is a web-based system that automates the lab processes in both sites in a bid to improve turn-around time and efficiency. Both systems are not accessible publicly as they are deployed on their respective intranets.', ''),
