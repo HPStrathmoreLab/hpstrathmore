@@ -14,9 +14,9 @@
 		<!-- CSS
 		================================================== -->
 		<!-- Bootstrap  -->
-		<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/assets/bootstrap/css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap.min.css">
 		<!-- web font  
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css">-->
+		<link href="http:/fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css">-->
 		<!-- plugin css  -->
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/js-plugin/animation-framework/animate.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/js-plugin/magnific-popup/magnific-popup.css" />
@@ -33,8 +33,8 @@
 		<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/neon.css">-->
 		<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/layout.css">
 		<link type="text/css" id="colors" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/colors.css">
-		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
-		<script src="js/modernizr-2.6.1.min.js"></script>
+		<!--[if lt IE 9]><script src="http:/html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+		<script src="<?php echo base_url(); ?>assets/js/modernizr-2.6.1.min.js"></script>
 		
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/slider/engine1/style.css" />
 	    <script type="text/javascript" src="<?php echo base_url(); ?>assets/slider/engine1/jquery.js"></script>
@@ -45,7 +45,7 @@
       }
     </style>
 
-	    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	    <script src="https:/maps.googleapis.com/maps/api/js?sensor=false"></script>
 	    <script>
 			function initialize() {
 			  var myLatlng = new google.maps.LatLng(-1.310019, 36.813252);
@@ -68,7 +68,7 @@
 
 		<!-- Favicons
 		================================================== -->
-		<link rel="shortcut icon" href="images/favicon(1).ico">
+		<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/favicon(1).ico">
 		
 	</head>
 	<body data-spy="scroll" data-target="#scrollTarget" data-offset="150">
@@ -81,7 +81,7 @@
 				<div class="container">
 					<nav class="navbar navbar-default scrollMenu" role="navigation">
 						<div class="navbar-header">
-							<img src="<?php echo base_url(); ?>images/offlogo.JPG" class="img-responsive"/>
+							<img src="<?php echo base_url(); ?>assets/images/offlogo.JPG" class="img-responsive"/>
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 								 <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
 							</button>
@@ -108,9 +108,7 @@
 				<!-- content -->
 				<section id="home" data-stellar-background-ratio="0.5">
 					
-							<?php
-								// @include("slider/index.html"); 
-							?>
+					<?php include('assets/slider/index.html'); ?>
 							
 							<!--<div class="col-lg-7 col-sm-6">
 								<div class="flexslider" id="flexHome">
@@ -131,7 +129,7 @@
 								</div> 
 							</div>
 							<div class="col-lg-5 col-sm-6 hidden-xs">
-								<img src="<?php echo base_url(); ?>images/theme-pics/home-girl.png" alt="Ashley, Bootstrap website template" class="img-responsive"/>
+								<img src="<?php echo base_url(); ?>assets/images/theme-pics/home-girl.png" alt="Ashley, Bootstrap website template" class="img-responsive"/>
 							</div>
 						</div>
 					</div>-->
@@ -151,7 +149,7 @@
 								<div class="portfolio-items  isotopeWrapper clearfix imgHover" id="999">							
 								<article class="col-sm-4 isotopeItem cats">
 									<section class="imgWrapper"> 
-										<img alt="" src="<?php echo base_url(); ?>images/portfolio/off.jpg" class="img-responsive"> 
+										<img alt="" src="<?php echo base_url(); ?>assets/images/portfolio/off.jpg" class="img-responsive"> 
 									</section>
 									<div class="mediaHover">
 										<div class="mask"></div>
@@ -210,21 +208,21 @@
 							<article class="col-sm-4">
 
 								<section class="imgWrapper"> 
-									<img src="<?php echo base_url(); ?>images/news/newsk.jpg" class="img-responsive" alt="Ashleye template image news" /> 
+									<img src="<?php echo base_url(); ?>assets/images/news/newsk.jpg" class="img-responsive" alt="Ashleye template image news" /> 
 								</section>
 
 								<div class="mediaHover">
 									<div class="mask"></div>
 									<div class="iconLinks"> 
 
-										<a href="images/news/news1.jpg" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
+										<a href="<?php echo base_url(); ?>assets/images/news/news1.jpg" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
 									</div>
 								</div>
 								<section class="newsText color4">
 									<h3>New hair cut today</h3>
 									<h4 class="date">September 12</h4>
 									<p>The Duchess took her choice, and was gone in a moment. 'Let's go on with the game,' the Queen said to Alice; and Alice was  too much frightened to say a word, but slowly followed her back to the  croquet-ground.</p>
-									<a href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207" class="btn btn-sm"><i class="icon-right-open-mini "></i>read more</a>
+									<a href="https:/wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207" class="btn btn-sm"><i class="icon-right-open-mini "></i>read more</a>
 								</section>
 								
 							</article>
@@ -232,38 +230,38 @@
 
 							<article class="col-sm-4">
 								<section class="imgWrapper"> 
-									<img src="<?php echo base_url(); ?>images/news/news2.jpg" class="img-responsive" alt="snowflake template image news" /> 
+									<img src="<?php echo base_url(); ?>assets/images/news/news2.jpg" class="img-responsive" alt="snowflake template image news" /> 
 								</section>
 								<div class="mediaHover">
 									<div class="mask"></div>
 									<div class="iconLinks"> 
-										<a href="images/news/news2.jpg" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
+										<a href="<?php echo base_url(); ?>assets/images/news/news2.jpg" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
 									</div>
 								</div>
 								<section class="newsText color4">
 									<h3>We are a family</h3>
 									<h4 class="date">November 24</h4>
 									<p>The Duchess took her choice, and was gone in a moment. 'Let's go on with the game,' the Queen said to Alice; and Alice was  too much frightened to say a word, but slowly followed her back to the  croquet-ground.</p>
-									<a href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207" class="btn btn-sm"><i class="icon-right-open-mini "></i>read more</a>
+									<a href="https:/wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207" class="btn btn-sm"><i class="icon-right-open-mini "></i>read more</a>
 								</section>
 							</article>
 
 
 							<article class="col-sm-4">
 								<section class="imgWrapper"> 
-									<img src="<?php echo base_url(); ?>images/news/news3.jpg" class="img-responsive" alt="snowflake template image news" /> 
+									<img src="<?php echo base_url(); ?>assets/images/news/news3.jpg" class="img-responsive" alt="snowflake template image news" /> 
 								</section>
 								<div class="mediaHover">
 									<div class="mask"></div>
 									<div class="iconLinks"> 
-										<a href="images/news/news3.jpg" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
+										<a href="<?php echo base_url(); ?>assets/images/news/news3.jpg" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
 									</div>
 								</div>
 								<section class="newsText color4">
 									<h3>Call me if you can</h3>
 									<h4 class="date">November 24</h4>
 									<p>The Duchess took her choice, and was gone in a moment. 'Let's go on with the game,' the Queen said to Alice; and Alice was  too much frightened to say a word, but slowly followed her back to the  croquet-ground.</p>
-									<a href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207" class="btn btn-sm"><i class="icon-right-open-mini"></i>read more</a>
+									<a href="https:/wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207" class="btn btn-sm"><i class="icon-right-open-mini"></i>read more</a>
 								</section>
 							</article>
 
@@ -379,7 +377,7 @@
 							<article class="col-sm-4">
 
 								<section class="imgWrapper" style="height: 220px;"> 
-									<img src="<?php echo $rows['img']; ?>" class="img-responsive" alt="<?php echo $rows['title']; ?>" /> 
+									<img src="<?php echo base_url().'assets/'.$rows['img']; ?>" class="img-responsive" alt="<?php echo $rows['title']; ?>" /> 
 								</section>
 
 								<div class="mediaHover">
@@ -442,46 +440,46 @@
 									<h1>Meet our team</h1>
 									<h2 class="subTitle">We are beautiful and smart</h2>
 								</div>
-								<?php foreach($staff as $row) ?>
+								<?php foreach($staff as $row) { ?>
 								<article class="col-sm-4">
 
-								<section class="imgWrapper"> 
-									<img src="<?php echo $row['img']; ?>" class="img-responsive" alt="<?php echo $row['fullname']; ?>" /> 
-								</section>
+									<section class="imgWrapper"> 
+										<img src="<?php echo base_url().'assets/'.$row['img']; ?>" class="img-responsive" alt="<?php echo $row['fullname']; ?>" /> 
+									</section>
 
-								<div class="mediaHover">
-									<div class="mask"></div>
-									<div class="iconLinks"> 
+									<div class="mediaHover">
+										<div class="mask"></div>
+										<div class="iconLinks"> 
 
-										<a href="<?php echo $row['img']; ?>" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
+											<a href="<?php echo base_url().'assets/'.$row['img']; ?>" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
+										</div>
 									</div>
-								</div>
-								<section class="newsText color4">
-									<div><h3><?php echo $row['fullname']; ?></h3></div>
-									<div style="min-height: 30px;"><h4 class="date"><?php echo $row['position']; ?></h4></div>
-									
-									<div style="min-height: 180px;">
-									<p>
-										<?php echo $row['jd']; ?>
-									</p>
-									<p>
-										<?php echo $row['education']; ?>
-									</p>
-									</div>
-								<div class="boxContent">Email: <?php echo $row['email']; ?>
+									<section class="newsText color4">
+											<div><h3><?php echo $row['fullname']; ?></h3></div>
+											<div style="min-height: 30px;"><h4 class="date"><?php echo $row['position']; ?></h4></div>
+											
+											<div style="min-height: 180px;">
+											<p>
+												<?php echo $row['jd']; ?>
+											</p>
+											<p>
+												<?php echo $row['education']; ?>
+											</p>
+											</div>
+										<div class="boxContent">Email: <?php echo $row['email']; ?>
 											<ul class="socialNetwork mt15">
-												<li><a href="https://facebook.com/<?php echo $row['facebook']; ?>" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-												<li><a href="https://twitter.com/<?php echo $row['twitter']; ?>" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-												<li><a href="https://google.com/<?php echo $row['google']; ?>" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
+												<li><a href="https:/facebook.com/<?php echo $row['facebook']; ?>" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
+												<li><a href="https:/twitter.com/<?php echo $row['twitter']; ?>" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
+												<li><a href="https:/google.com/<?php echo $row['google']; ?>" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
 												<!--<li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
 												<li><a href="#" class="tips" title="" data-original-title="follow me on Dribble"><i class="icon-dribbble iconRounded"></i></a></li>
 											--></ul>
-								</div>
-								</section>
+										</div>
+									</section>
 
-							</article>
+								</article>
 							
-							<?php } ?>
+								<?php } ?>
 								
 							</div>
 						</div>
@@ -533,7 +531,7 @@
 										info@hpstrathmore.or.ke<br/>
 									</address>
 								</div>
-								<!--<form method="post" action="http://ashley-bootstrap3-website-template.little-neko.com/main/files/js-plugin/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm" role="form">
+								<!--<form method="post" action="http:/ashley-bootstrap3-website-template.little-neko.com/main/files/js-plugin/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm" role="form">
 
 									<div class="col-sm-4"> 
 										<div class="form-group">
@@ -557,7 +555,7 @@
 										<fieldset class="clearfix securityCheck">
 											<legend>Security</legend>
 											<div class="form-group">
-												<img src="js-plugin/neko-contact-ajax-plugin/php/image.html" alt="Image verification" id="verifyImg"/>
+												<img src="<?php echo base_url(); ?>assets/js-plugin/neko-contact-ajax-plugin/php/image.html" alt="Image verification" id="verifyImg"/>
 												<input class="required form-control"  id="verify" name="verify" type="text" >
 											</div>
 										</fieldset>
@@ -583,7 +581,7 @@
 									<div class="col-sm-6">
 										<ul class="socialNetwork pull-right">
 											<li><a href="#" class="tips" title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-											<li><a href="https://twitter.com/LIttleNeko1" class="tips" title="follow me on Twitter" target="_blank"><i class="icon-twitter-bird iconRounded"></i></a></li>
+											<li><a href="https:/twitter.com/LIttleNeko1" class="tips" title="follow me on Twitter" target="_blank"><i class="icon-twitter-bird iconRounded"></i></a></li>
 											<li><a href="#" class="tips" title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
 											<li><a href="#" class="tips" title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
 											<li><a href="#" class="tips" title="follow me on Dribble"><i class="icon-dribbble iconRounded"></i></a></li>
